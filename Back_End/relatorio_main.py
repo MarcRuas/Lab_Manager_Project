@@ -28,7 +28,7 @@ class Relatorio():
         linha = 770
         for item in dados:
             texto = ", ".join(item)
-            pdf.setFont("Helvetica", 12)
+            pdf.setFont("Helvetica", 10.5)
             pdf.drawString(50, linha, texto)
             linha -= 20
 

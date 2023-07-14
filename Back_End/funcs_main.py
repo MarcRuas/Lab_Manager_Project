@@ -118,7 +118,7 @@ class Funcs():
         item = self.tree.selection()[0]
         self.tree.delete(item)
         self.limpar()
-        messagebox.showinfo("S88888888888888888888888ucesso", "Dados apagadados com sucesso!")
+        messagebox.showinfo("Sucesso", "Dados apagadados com sucesso!")
 
     def atualizar(self):
         id = self.e_procurar.get()
